@@ -1,0 +1,30 @@
+#profile.education {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+
+#profile.education li {
+    margin-bottom: 1rem;
+}
+
+#profile.education .institution {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#profile.education .title {
+    font-size: 1rem;
+    color: #555;
+}
+
+#profile.education .city {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #777;
+}
+
+#profile.education .year {
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: bold;
+}

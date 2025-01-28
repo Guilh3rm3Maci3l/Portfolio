@@ -40,6 +40,13 @@
     "Inglês (intermediário)",
     "Espanhol (iniciante)"
   ],
+
+  "education": [
+      "Análise e Desenvolvimento de Sistemas - FATEC, Campinas (2024-2027)",
+      "Técnico em Informática - CEMEP, Paulínia (2021-2023)"
+  ],
+
+
   "portfolio": [
     {
       "name": "Pokedex utilizando a API do PokeAPI",

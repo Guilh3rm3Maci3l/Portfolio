@@ -1,4 +1,3 @@
-
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
@@ -25,6 +24,23 @@ function updateProfileInfo(profileData) {
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills')
     softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+}
+
+function updateEducation(profileData) {
+    const education = document.getElementById('profile.education');
+    education.innerHTML = profileData.education
+        .map(course => {
+            const [institution, title, city, year] = course.split(" - ");
+            return `
+                <li>
+                    <span class="institution">${institution}</span> - 
+                    <span class="title">${title}</span><br>
+                    <span class="city">${city}</span> - 
+                    <span class="year">${year}</span>
+                </li>
+            `;
+        })
+        .join('');
 }
 
 function updateHardSkills(profileData) {
@@ -66,6 +82,7 @@ function updateProfessionalExperience(profileData) {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
     updateSoftSkills(profileData)
+    updateEducation(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
     updatePortfolio(profileData)

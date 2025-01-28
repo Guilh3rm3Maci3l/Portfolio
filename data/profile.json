@@ -1,6 +1,6 @@
 {
   "name": "Guilherme Maciel Teixeira",
-  "photo": "https://github.com/Guilh3rm3Maci3l/Portfolio/blob/main/assets/img/my-photo.png",
+  "photo": "./assets/img/my-photo.png",
   "job": "Técnico de Informática",
   "location": "Paulínia - SP",
   "phone": "(19) 98262-8955",
@@ -16,16 +16,16 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "git",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/git.png"
       },
       {
-        "name": "React",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "name": "mySql",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mysql.png"
       },
       {
-        "name": "Mongodb",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/python.png"
       }
     ],
     "softSkills": [
@@ -40,6 +40,12 @@
     "Inglês (intermediário)",
     "Espanhol (iniciante)"
   ],
+
+  "education": [
+    "Análise e Desenvolvimento de Sistemas - FATEC, Campinas (2024- 2027)",
+    "Técnico em Informática - CEMEP, Paulínia (2021, 2023)"
+  ],
+
   "portfolio": [
     {
       "name": "Pokedex utilizando a API do PokeAPI",
